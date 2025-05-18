@@ -2,7 +2,7 @@ import axios from "axios";
 import { LANGUAGE_VERSIONS } from "./constants";
 
 const API = axios.create({
-  baseURL: "https://codeeditor-backend-pv8r.onrender.com/api",
+  baseURL: "https://codeeditor.draknow.me/api",
 });
 
 export const executeCode = async (language, sourceCode) => {
