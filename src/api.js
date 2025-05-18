@@ -2,7 +2,7 @@ import axios from "axios";
 import { LANGUAGE_VERSIONS } from "./constants";
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000/api",
+  baseURL: "https://codeeditor-backend-pv8r.onrender.com/api",
 });
 
 export const executeCode = async (language, sourceCode) => {
